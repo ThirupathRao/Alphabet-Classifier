@@ -50,7 +50,7 @@ $ pip install requirments.txt
 ```
 $ python Alphabet_Classifier_Run.py 
 ```
-- TODO ADD Gif here
+![Demo](./images/python_demo.gif)
 
 ### Instant Try
 - [Click here](https://thirupathrao.github.io/Alphabet-Classifier/) to open the model in the web browser. (Will not work in mobile)
