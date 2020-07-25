@@ -4,15 +4,15 @@
 ### Description
 Softmax activation function is used for classifying the english character set ( A to Z).
 
-###Requirements
+### Requirements
 
 | Dependency | Version |
 | ----------- | ------|
-|Python | 3.6.x |
+|Python | >3.0.x |
 |Tensorflow | 2.0.0|
 |Opencv2 | 4.2.0.x |
 
-###Implementation Details
+### Implementation Details
 
 | Implementation|Details            |
 | ------------- |:-------------:|
@@ -28,18 +28,18 @@ Softmax activation function is used for classifying the english character set ( 
 | Evaluation Metrics | Accuracy/Loss
 | Train/Validation Accuracy | 99%/99%
 
-###Dataset 
+### Dataset 
 The dataset contains 26 folders (A-Z) containing handwritten images in size 2828 pixels, each alphabet in the image is centre fitted to 2020 pixel box. Each image is stored as Gray-level
 
 ![Data Visualization](./images/data_visualization.png)
 
-###Model Summary:
+### Model Summary:
 
 Conv2D -> Conv2D -> MaxPooling -> Flatten -> Dense -> Dropout -> Dense -> Dense -> Softmax
 
 ![Model Summary](./images/model_summary.png)
 
-###Steps to execute
+### Steps to execute
 - 👯 Clone this repo to your local machine using `https://github.com/ThirupathRao/Alphabet-Classifier.git`
 
 - Install all the required packages using requirements.txt
@@ -52,7 +52,7 @@ $ python Alphabet_Classifier_Run.py
 ```
 - TODO ADD Gif here
 
-###Instant Try
+### Instant Try
 - [Click here](https://thirupathrao.github.io/Alphabet-Classifier/) to open the model in the web browser. (Will not work in mobile)
 ![Demo](./images/demo_browser.gif)
 
