@@ -2,7 +2,8 @@
 
 
 ### Description
-Softmax activation function is used for classifying the english character set ( A to Z).
+CNN model is trained to predict the hand-written capital letters (English).
+Softmax activation function is used for classifying the character set ( A to Z).
 
 ### Requirements
 
